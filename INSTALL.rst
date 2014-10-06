@@ -2,4 +2,5 @@
 SCOAP3 Installation
 ===================
 
-Install this overlay alongside Invenio `pu` branch.
+.. include:: INSTALL.rst
+   :start-after: ------------
