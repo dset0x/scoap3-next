@@ -24,6 +24,4 @@ PACKAGES = [
     "scoap3.modules.*",
 ] + _PACKAGES
 
-DEPOSIT_TYPES = [
-    'scoap3.modules.deposit.workflows.article.article',
-]
+DEPOSIT_TYPES = []

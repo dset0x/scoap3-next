@@ -30,9 +30,9 @@ version = g['__version__']
 
 
 setup(
-    name='Invenio-Demosite',
+    name='scoap3',
     version=version,
-    url='https://github.com/inveniosoftware/invenio-demosite',
+    url='https://github.com/SCOAP3/scoap3-next',
     license='GPLv2',
     author='CERN',
     author_email='info@invenio-software.org',
@@ -43,7 +43,7 @@ setup(
     zip_safe=False,
     platforms='any',
     install_requires=[
-        'Invenio>=1.9999.3,<1.9999.4',
+        'Invenio>=1.9999.4',
     ],
     extras_require={
         'development': [
