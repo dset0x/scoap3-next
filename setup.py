@@ -35,7 +35,7 @@ setup(
     url='https://github.com/SCOAP3/scoap3-next',
     license='GPLv2',
     author='CERN',
-    author_email='info@invenio-software.org',
+    author_email='info@scoap3.org',
     description=__doc__,
     long_description=open('README.rst', 'rt').read(),
     packages=find_packages(),
