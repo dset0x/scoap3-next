@@ -1,33 +1,7 @@
 include requirements*.txt *.rst COPYING setup.cfg
+recursive-include scoap3 *.xml *.xsl *.xsd *.tpl *.html *.js *.kb *.css *.cfg *.bft *.rst *.ico *.sql *.bfo *.png *.woff
 
 recursive-include docs *
+
 recursive-exclude docs/_build *
-
-recursive-include scoap3/base/static *
-recursive-include scoap3/base/templates *
-recursive-include scoap3/base/format_elements *
-recursive-include scoap3/base/format_templates *
-recursive-include scoap3/base/output_formats *
-recursive-include scoap3/base/bulletinext/* *
-recursive-include scoap3/base/converterext/* *
-recursive-include scoap3/base/documentext/* *
-recursive-include scoap3/base/editorext/* *
-recursive-include scoap3/base/exportext/* *
-recursive-include scoap3/base/rankext/* *
-recursive-include scoap3/base/recordext/* *
-
-recursive-include scoap3/modules/*/static *
-recursive-include scoap3/modules/*/templates *
-recursive-include scoap3/modules/*/testsuite *
-recursive-include scoap3/modules/*/recordext/* *
-recursive-include scoap3/modules/*/converterext *
-recursive-include scoap3/modules/*/documentext *
-recursive-include scoap3/modules/*/editorext *
-recursive-include scoap3/modules/*/exportext *
-recursive-include scoap3/modules/*/format_elements *
-recursive-include scoap3/modules/*/format_templates *
-recursive-include scoap3/modules/*/output_formats *
-recursive-include scoap3/modules/*/rankext *
-
-recursive-exclude scoap3/testsuite *
 recursive-exclude * *.pyc *.pyo
