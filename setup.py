@@ -24,7 +24,7 @@ from setuptools import setup, find_packages
 # Load __version__, should not be done using import.
 # http://python-packaging-user-guide.readthedocs.org/en/latest/tutorial.html
 g = {}
-with open(os.path.join('invenio_demosite', 'version.py'), 'rt') as fp:
+with open(os.path.join('scoap3', 'version.py'), 'rt') as fp:
     exec(fp.read(), g)
 version = g['__version__']
 
@@ -62,7 +62,7 @@ setup(
     ],
     entry_points={
         'invenio.config': [
-            'demosite = invenio_demosite.config'
+            'demosite = scoap3.config'
         ]
     },
     test_suite='nose.collector',

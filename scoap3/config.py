@@ -20,10 +20,10 @@
 from invenio.base.config import PACKAGES as _PACKAGES
 
 PACKAGES = [
-    "invenio_demosite.base",
-    "invenio_demosite.modules.*",
+    "scoap3.base",
+    "scoap3.modules.*",
 ] + _PACKAGES
 
 DEPOSIT_TYPES = [
-    'invenio_demosite.modules.deposit.workflows.article.article',
+    'scoap3.modules.deposit.workflows.article.article',
 ]
