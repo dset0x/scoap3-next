@@ -18,10 +18,16 @@
 ## 59 Temple Place, Suite 330, Boston, MA 02D111-1307, USA.
 
 from invenio.base.config import PACKAGES as _PACKAGES
+from invenio.base.config import PACKAGES_EXCLUDE as _PACKAGES_EXCLUDE
 
 PACKAGES = [
     "scoap3.base",
-    "scoap3.modules.*",
+    "scoap3.modules.*"
 ] + _PACKAGES
+
+PACKAGES_EXCLUDE = [
+    "invenio.modules.deposit",
+    "invenio.modules.messages"
+] + _PACKAGES_EXCLUDE
 
 DEPOSIT_TYPES = []

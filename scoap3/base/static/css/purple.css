@@ -1,0 +1,11 @@
+.navbar-inverse {
+    background-color: purple;
+}
+
+/* Logo */
+.navbar-inverse > .container >.navbar-header > .navbar-brand {
+    padding: 0;
+}
+.navbar-brand img {
+    height: 50px;
+}
